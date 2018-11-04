@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ibm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:drawablePadding="@dimen/spacing_small"
+        android:drawableStart="@drawable/ibm_notes_9"
+        android:text="@string/tv_ibm_info"
+        android:textSize="@dimen/size_default_text" />
+
+    <TextView
+        android:id="@+id/tv_mtg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:drawablePadding="@dimen/spacing_small"
+        android:drawableStart="@drawable/magic"
+        android:text="@string/tv_mtg_info"
+        android:textSize="@dimen/size_default_text" />
+
+    <TextView
+        android:id="@+id/tv_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:drawablePadding="@dimen/spacing_small"
+        android:drawableStart="@drawable/java"
+        android:text="@string/tv_java_info"
+        android:textSize="@dimen/size_default_text" />
+
+    <include layout="@layout/divider" />
+
+    <TextView
+        android:id="@+id/tv_about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="@string/about_me"
+        android:textSize="@dimen/size_default_text" />
+
+    <include layout="@layout/divider" />
+
+    <EditText
+        android:id="@+id/et_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:hint="@string/hint_send_message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_send"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/button_send_message"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/size_default_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_my_instagram_link"
+            android:layout_width="@dimen/size_icon_about_info"
+            android:layout_height="@dimen/size_icon_about_info"
+            android:layout_margin="@dimen/spacing_small"
+            android:contentDescription="@string/descr_my_instagram_link"
+            android:src="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/iv_my_vk_link"
+            android:layout_width="@dimen/size_icon_about_info"
+            android:layout_height="@dimen/size_icon_about_info"
+            android:layout_margin="@dimen/spacing_small"
+            android:contentDescription="@string/descr_my_vk_link"
+            android:src="@drawable/vk" />
+
+        <ImageView
+            android:id="@+id/iv_my_telegram_link"
+            android:layout_width="@dimen/size_icon_about_info"
+            android:layout_height="@dimen/size_icon_about_info"
+            android:layout_margin="@dimen/spacing_small"
+            android:contentDescription="@string/descr_my_telegram_link"
+            android:src="@drawable/telegram" />
+    </LinearLayout>
+
+</LinearLayout>

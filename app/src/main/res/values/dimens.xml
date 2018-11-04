@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_default_text">16sp</dimen>
+    <dimen name="size_icon_about_info">28dp</dimen>
+    <dimen name="spacing_default">16dp</dimen>
+    <dimen name="spacing_start_about_info">50dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+
+</resources>

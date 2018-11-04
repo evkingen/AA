@@ -4,25 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".NewsActivity">
+    tools:context=".AboutAppActivity">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:src="@drawable/iii"
         android:layout_gravity="top"
+        android:layout_weight="1"
+        android:contentDescription="@string/descr_my_photo"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/my_photo"/>
+        android:src="@drawable/my_photo" />
 
     <ScrollView
-        android:scrollbars="none"
-        android:clipToPadding="false"
-        android:paddingTop="@dimen/spacing_small"
-        android:paddingStart="@dimen/spacing_start"
-        android:paddingEnd="@dimen/spacing_default"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="2">
-    <include layout="@layout/detail_description"/>
+        android:layout_weight="2"
+        android:clipToPadding="false"
+        android:paddingEnd="@dimen/spacing_default"
+        android:paddingStart="@dimen/spacing_start_about_info"
+        android:paddingTop="@dimen/spacing_small"
+        android:scrollbars="none">
+
+        <include layout="@layout/detail_description" />
     </ScrollView>
+
 </LinearLayout>
