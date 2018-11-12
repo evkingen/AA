@@ -5,5 +5,9 @@
     <dimen name="spacing_default">16dp</dimen>
     <dimen name="spacing_start_about_info">50dp</dimen>
     <dimen name="spacing_small">8dp</dimen>
-
+    <dimen name="default_size_image_news">100dp</dimen>
+    <dimen name="radius_corner_card_news">10dp</dimen>
+    <dimen name="max_toolbar_height">300dp</dimen>
+    <dimen name="spacing_large">64dp</dimen>
+    <dimen name="spacing_decorator">4dp</dimen>
 </resources>

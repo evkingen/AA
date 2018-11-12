@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Georgiy Merkulov</string>
+    <string name="app_name">Fake News App</string>
     <string name="hello_world">Hello World</string>
     <string name="tv_ibm_info">IBM Notes Developer in Airport Domodedovo</string>
     <string name="descr_my_photo">My photo</string>
@@ -16,5 +16,6 @@
     <string name="descr_my_telegram_link">Feedback to my Telegram account</string>
     <string name="error_no_email_app">Mail App is not found!</string>
     <string name="feedback_email_subject">Feedback</string>
+    <string name="descr_image_news">News item image</string>
 
 </resources>

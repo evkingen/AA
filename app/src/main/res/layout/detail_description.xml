@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/spacing_small"
-        android:drawablePadding="@dimen/spacing_small"
         android:drawableStart="@drawable/ibm_notes_9"
+        android:drawablePadding="@dimen/spacing_small"
         android:text="@string/tv_ibm_info"
         android:textSize="@dimen/size_default_text" />
 
@@ -18,10 +18,10 @@
         android:id="@+id/tv_mtg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/spacing_small"
         android:layout_marginTop="@dimen/spacing_small"
-        android:drawablePadding="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
         android:drawableStart="@drawable/magic"
+        android:drawablePadding="@dimen/spacing_small"
         android:text="@string/tv_mtg_info"
         android:textSize="@dimen/size_default_text" />
 
@@ -29,10 +29,10 @@
         android:id="@+id/tv_java"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/spacing_small"
         android:layout_marginTop="@dimen/spacing_small"
-        android:drawablePadding="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
         android:drawableStart="@drawable/java"
+        android:drawablePadding="@dimen/spacing_small"
         android:text="@string/tv_java_info"
         android:textSize="@dimen/size_default_text" />
 
@@ -42,8 +42,8 @@
         android:id="@+id/tv_about_me"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/spacing_small"
         android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
         android:text="@string/about_me"
         android:textSize="@dimen/size_default_text" />
 
@@ -53,8 +53,8 @@
         android:id="@+id/et_feedback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/spacing_small"
         android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
         android:hint="@string/hint_send_message"
         android:inputType="text" />
 
