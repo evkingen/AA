@@ -7,12 +7,12 @@ import java.util.List;
 
 public class DataUtils {
 
-    public static List<NewsItem> generateNews() {
+    public static List<NewsItem> generateNews() throws InterruptedException {
         final Category darwinAwards = new Category(1, "Darwin Awards");
         final Category criminal = new Category(2, "Criminal");
         final Category animals = new Category(3, "Animals");
         final Category music = new Category(4, "Music");
-
+        Thread.sleep(2000);
         List<NewsItem> news = new ArrayList<>();
         news.add(new NewsItem(
                 "Tourist filmed sitting on 5m-long crocodile",
