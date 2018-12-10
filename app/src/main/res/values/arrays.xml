@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item>HOME</item>
+        <item>OPINION</item>
+        <item>WORLD</item>
+        <item>NATIONAL</item>
+        <item>POLITICS</item>
+        <item>UPSHOT</item>
+        <item>NYREGION</item>
+        <item>BUSINESS</item>
+        <item>TECHNOLOGY</item>
+        <item>SCIENCE</item>
+        <item>HEALTH</item>
+        <item>SPORTS</item>
+        <item>ARTS</item>
+        <item>BOOKS</item>
+        <item>MOVIES</item>
+        <item>THEATER</item>
+        <item>SUNDAYREVIEW</item>
+        <item>FASHION</item>
+        <item>TMAGAZINE</item>
+        <item>FOOD</item>
+        <item>TRAVEL</item>
+        <item>MAGAZINE</item>
+        <item>REALESTATE</item>
+        <item>AUTOMOBILES</item>
+        <item>OBITUARIES</item>
+        <item>INSIDER</item>
+    </string-array>
+</resources>
